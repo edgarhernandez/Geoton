@@ -1,0 +1,320 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Geoton" xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="Geoton.Inicio"
+    Title="Inicio" Height="549" Width="325" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize" Background="{x:Null}" WindowStyle="None" AllowsTransparency="True" mc:Ignorable="d" Icon="geoton.png" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+	<Window.Resources>
+		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="btniniciar" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="btn_about" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="Equis_roja" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="Botones/no_juez.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="botoniniciar" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="botonequipos" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="botonaboutazul" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="BotonEquipoC" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="RenderTransform" TargetName="image">
+									<Setter.Value>
+										<TransformGroup>
+											<ScaleTransform/>
+											<SkewTransform/>
+											<RotateTransform Angle="30.488"/>
+											<TranslateTransform/>
+										</TransformGroup>
+									</Setter.Value>
+								</Setter>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="Boton_Negro" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle x:Name="rectangle" Fill="Black" RadiusX="20" RadiusY="20"/>
+							<ContentPresenter x:Name="contentPresenter" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Fill" TargetName="rectangle">
+									<Setter.Value>
+										<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+											<GradientStop Color="#FFDC2D2D" Offset="0"/>
+											<GradientStop Color="Black" Offset="1"/>
+										</LinearGradientBrush>
+									</Setter.Value>
+								</Setter>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="OpacityMask" TargetName="contentPresenter" Value="{x:Null}"/>
+								<Setter Property="Fill" TargetName="rectangle">
+									<Setter.Value>
+										<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+											<GradientStop Color="Black" Offset="0"/>
+											<GradientStop Color="White" Offset="1"/>
+										</LinearGradientBrush>
+									</Setter.Value>
+								</Setter>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="BtonSalir_Blanco" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" Source="Botones/btonblancosalir.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Margin" TargetName="image" Value="0"/>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True">
+								<Setter Property="OpacityMask" TargetName="image" Value="White"/>
+								<Setter Property="RenderTransform" TargetName="image">
+									<Setter.Value>
+										<TransformGroup>
+											<ScaleTransform/>
+											<SkewTransform/>
+											<RotateTransform Angle="-10.806"/>
+											<TranslateTransform/>
+										</TransformGroup>
+									</Setter.Value>
+								</Setter>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded"/>
+	</Window.Triggers>
+    <Grid>
+    	<Grid.RowDefinitions>
+    		<RowDefinition Height="0*"/>
+    		<RowDefinition/>
+    	</Grid.RowDefinitions>
+    	<VisualStateManager.CustomVisualStateManager>
+    		<ic:ExtendedVisualStateManager/>
+    	</VisualStateManager.CustomVisualStateManager>
+    	<VisualStateManager.VisualStateGroups>
+    		<VisualStateGroup x:Name="VisualStateGroup"/>
+    	</VisualStateManager.VisualStateGroups>
+    	<Rectangle RadiusX="32.5" RadiusY="32.5" Margin="0,4.824,-1,19" Fill="#FFCC0606" Grid.Row="1" Opacity="0.7"/>
+        <Rectangle Fill="#FFE8ECF2" Margin="0,183,-1,90" Grid.Row="1" d:LayoutOverrides="VerticalAlignment, GridBox"/>
+        <Image Margin="-91.942,189,-103.942,95" Grid.Row="1" Source="Resources/mapamundial.png" Stretch="Fill" Opacity="0.8"/>
+        <Ellipse Fill="Black" Margin="121,252,116,241" Grid.Row="1" d:LayoutOverrides="VerticalAlignment, GridBox"/>
+    	<Canvas Margin="0,18,-1,39" Grid.Row="1">
+    		<Button x:Name="btn_equipos" Click="btn_equipos_Click" TabIndex="2" Content="Equipos" Cursor="Hand" Style="{DynamicResource Boton_Negro}" Width="137.876" Height="46.5" Canvas.Left="96" Canvas.Top="254.5" RenderTransformOrigin="0.5,0.5" Foreground="White">
+    			<Button.RenderTransform>
+    				<TransformGroup>
+    					<ScaleTransform/>
+    					<SkewTransform/>
+    					<RotateTransform Angle="0.551"/>
+    					<TranslateTransform/>
+    				</TransformGroup>
+    			</Button.RenderTransform>
+    		</Button>
+    		<Button x:Name="btn_inicio" Click="btn_inicio_Click" TabIndex="3" Content="Inicio" Style="{DynamicResource Boton_Negro}" Width="137.876" Height="46.5" Canvas.Left="96" Canvas.Top="299.172" Cursor="Hand" RenderTransformOrigin="0.5,0.5" FontSize="16" Foreground="White">
+    			<Button.Background>
+    				<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+    					<GradientStop Color="#FFF3F3F3" Offset="0"/>
+    					<GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+    					<GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+    					<GradientStop Color="#FF6E6E6E" Offset="1"/>
+    				</LinearGradientBrush>
+    			</Button.Background>
+    			<Button.RenderTransform>
+    				<TransformGroup>
+    					<ScaleTransform/>
+    					<SkewTransform/>
+    					<RotateTransform Angle="-0.045"/>
+    					<TranslateTransform/>
+    				</TransformGroup>
+    			</Button.RenderTransform>
+    		</Button>
+    		<Button Height="37" x:Name="btn_about" Click="btn_about_Click" TabIndex="4" Content="About" Style="{DynamicResource Boton_Negro}" Width="60" Canvas.Left="8" Canvas.Top="455" Cursor="Pen" Foreground="White"/>
+    		<Rectangle Fill="Black" Stroke="Black" Width="210" Height="34.5" Canvas.Left="58" Canvas.Top="187.5" RadiusX="16.5" RadiusY="16.5"/>
+    		<Label x:Name="label1" VerticalContentAlignment="Stretch" Content="Número de Rondas" Width="149" Height="34.5" FontSize="16" Canvas.Left="64" Canvas.Top="187.5" Foreground="White"/>
+    		<TextBox x:Name="txt_rondas" KeyDown="txt_rondas_KeyDown" TabIndex="1" Width="22" Height="23" Canvas.Left="222" Canvas.Top="193.5" />
+    	</Canvas>
+        <Button HorizontalAlignment="Right" x:Name="btn_close" Width="50" Click="btn_close_Click" Content="" Margin="0,0,11,39" Style="{DynamicResource BtonSalir_Blanco}" Cursor="Hand" VerticalAlignment="Bottom" Height="27" Grid.Row="1" RenderTransformOrigin="-0.625,4.862"/>
+        <Rectangle Fill="White" RadiusX="19" RadiusY="19" Margin="112,483,113,8" Grid.Row="1" d:LayoutOverrides="GridBox"/>
+        <TextBlock Margin="124,483,117,26" Grid.Row="1" Text="UVM" TextWrapping="Wrap" d:LayoutOverrides="GridBox" FontSize="32" FontWeight="Bold"/>
+        <TextBlock Margin="125,519.94,118,13" Grid.Row="1" FontSize="10.667" FontWeight="Bold" Text="Aguascalientes" TextWrapping="Wrap" d:LayoutOverrides="GridBox" RenderTransformOrigin="-0.187,-0.15"/>
+        <Ellipse Fill="Black" Margin="121,371,116,122" Grid.Row="1" d:LayoutOverrides="GridBox"/>
+        <Button Margin="96,0,91.124,140" x:Name="btn_config" Click="btn_config_Click" ToolTip="Configuración" Content="Administrador" VerticalAlignment="Bottom" Height="46.5" Grid.Row="1" Cursor="Hand" Background="Black" Foreground="White" Style="{DynamicResource Boton_Negro}" RenderTransformOrigin="0.264,-0.261" Width="137.876"/>
+    	<Image Margin="61,24,36,0" VerticalAlignment="Top" Height="157" Grid.Row="1" Source="Botones/LogoEstiloPlano con avion.png" Stretch="Fill"/>
+    </Grid>
+</Window>

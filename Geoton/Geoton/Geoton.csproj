@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{642786ED-4A93-4886-BDEC-D16BC656E8DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Geoton</RootNamespace>
+    <AssemblyName>Geoton</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>Custom</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <SignManifests>false</SignManifests>
+    <ExcludedPermissions>
+    </ExcludedPermissions>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>geoton.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Bases.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Colores.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Equipos_control.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Inicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Window1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="winners.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bases.xaml.cs">
+      <DependentUpon>Bases.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas_abiertas.cs" />
+    <Compile Include="Consultas_paises.cs" />
+    <Compile Include="Equipos.cs" />
+    <Compile Include="Equipos_control.xaml.cs">
+      <DependentUpon>Equipos_control.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.xaml.cs">
+      <DependentUpon>Inicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="login.xaml.cs">
+      <DependentUpon>login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="winners.xaml.cs">
+      <DependentUpon>winners.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\afganistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\albania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\alemania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\andorra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\angola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\antigua_y_barbuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\arabia_saudita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\argelia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\argentina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\armenia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\australia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\austria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\azerbaijan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\bahamas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\bahrein.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\bangladesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\barbados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\belgica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\belice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\benin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\bielorrusia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\bolivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\bosnia_y_herzegovina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\botsuana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\brasil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\brunei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\bulgaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\burkina_faso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\burundi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\butan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\cabo_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\camboya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\camerun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\canada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\chad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\checa_republica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\chile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\china.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\chipre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\chipre_republica_turca_del_norte_de_chipre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\colombia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\comoras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\congo_brazzaville.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\congo_republica_democratica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\corea_del_norte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\corea_del_sur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\costa_de_marfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\costa_rica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\croacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\cuba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\dinamarca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\dominica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\ecuador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\egipto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\el_salvador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\emiratos_arabes_unidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\eritrea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\eslovaquia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\eslovenia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\españa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\estados_unidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\estonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\etiopia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\fiji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\filipinas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\finlandia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\francia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\gabon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\gambia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\georgia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\ghana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\granada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\grecia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\guatemala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\guinea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\guinea_bissau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\guinea_ecuatorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\guyana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\haiti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\honduras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\hungria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\india.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\indonesia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\irak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\iran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\irlanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\islandia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\islas_marshall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\islas_salomon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\israel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\italia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\jamaica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\japon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\jordania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\kazajstan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\kenia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\kirguiztan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\kiribati.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\kuwait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\laos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\lesotho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\letonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\libano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\liberia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\libia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\liechtenstein.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\lituania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\luxemburgo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\macedonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\madagascar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\malasia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\malawi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\maldivas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\mali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\malta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\marruecos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\mauricio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\mauritania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\mexico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\micronesia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\moldavia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\monaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\mongolia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\montenegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\montserrat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\mozambique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\myanmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\namibia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\nauru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\nepal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\niger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\nigeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\noruega.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\nueva_zelanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\oman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\paises_bajos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\pakistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\palau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\palestina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\panama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\papua_nueva_guinea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\paraguay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\peru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\polonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\portugal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\puerto_rico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\qatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\reino_unido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\republica_centroafricana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\republica_dominicana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\ruanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\rumania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\rusia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\sahara_occidental.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\samoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\san_cristobal_y_nieves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\san_marino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\san_vicente_y_las_granadinas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\santa_helena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\santa_lucia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\santo_tome_y_principe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\senegal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\serbia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\seychelles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\sierra_leona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\singapur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\siria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\somalia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\somaliland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\sri_lanka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\sudafrica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\sudan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\suecia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\suiza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\surinam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\swazilandia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\tailandia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\taiwan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\tanzania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\tayikistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\timor_oriental.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\togo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\tokelau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\tonga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\transnistria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\trinidad_y_tobago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\tunez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\turkmenistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\turquia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\tuvalu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\ucrania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\uganda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\uruguay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\uzbekistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\vanuatu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\vaticano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\venezuela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\vietnam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\yemen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\yibuti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\zaire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\zambia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flags\zimbabwe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Hidrosoft_s.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\pregunta_chida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Botones\botonnegro.png" />
+    <Resource Include="Botones\btonblancosalir.png" />
+    <Resource Include="Botones\btotn R.png" />
+    <Resource Include="Botones\Excel.png" />
+    <Resource Include="Botones\LinceUVM.jpg" />
+    <Resource Include="Botones\LogoEstiloPlano con avion.png" />
+    <Resource Include="Botones\mundo.png" />
+    <Resource Include="Botones\no_juez.png" />
+    <Resource Include="Botones\reload.png" />
+    <Resource Include="Botones\Run.png" />
+    <Resource Include="Botones\si_juez.png" />
+    <Resource Include="clave.png" />
+    <Resource Include="Excel.png" />
+    <BlendEmbeddedFont Include="Fonts\segoeui.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\segoeuib.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\segoeuii.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\segoeuil.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\segoeuiz.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\seguisb.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+    <Resource Include="geoton.png" />
+    <Resource Include="image0.png" />
+    <Resource Include="none.png" />
+    <Resource Include="Resources\mapamundial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ActiveDs">
+      <Guid>{97D25DB0-0363-11CF-ABC4-02608C9E7553}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="geoton.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Resources\POSTER RI 500.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\3.0\WPF\Microsoft.Expression.Blend.WPF.targets" />
+</Project>

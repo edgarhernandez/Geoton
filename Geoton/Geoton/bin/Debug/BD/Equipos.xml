@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<equipos>
+  <equipo>
+    <idEquipo>5</idEquipo>
+    <nombre>UH</nombre>
+    <puntaje>0</puntaje>
+  </equipo>
+  <equipo>
+    <idEquipo>2</idEquipo>
+    <nombre>SXS</nombre>
+    <puntaje>0</puntaje>
+  </equipo>
+  <equipo>
+    <idEquipo>3</idEquipo>
+    <nombre>XSXS</nombre>
+    <puntaje>0</puntaje>
+  </equipo>
+  <equipo>
+    <idEquipo>4</idEquipo>
+    <nombre>VF</nombre>
+    <puntaje>0</puntaje>
+  </equipo>
+</equipos>

@@ -1,0 +1,410 @@
+C:\Users\edgar\Desktop\Geoton\Geoton\bin\Release\Geoton.exe
+C:\Users\edgar\Desktop\Geoton\Geoton\bin\Release\Geoton.pdb
+C:\Users\edgar\Desktop\Geoton\Geoton\bin\Release\WPFToolkit.dll
+C:\Users\edgar\Desktop\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\ResolveAssemblyReference.cache
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Window1.baml
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Window1.g.cs
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\App.g.cs
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Geoton.g.resources
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Geoton.csproj.GenerateResource.Cache
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Geoton.exe
+C:\Users\edgar\Desktop\Geoton\Geoton\obj\Release\Geoton.pdb
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.exe
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.pdb
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.exe
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.pdb
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.xml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.xml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\ResolveAssemblyReference.cache
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Colores.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.g.cs
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.lref
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.baml
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.g.resources
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+C:\Users\edgar\Desktop\oskar\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.GenerateResource.Cache
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.exe
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.pdb
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.exe
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.pdb
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.xml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.xml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\ResolveAssemblyReference.cache
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Colores.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.g.cs
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.lref
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.baml
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.g.resources
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.GenerateResource.Cache
+C:\Users\edgar\Desktop\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.config
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.config
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.exe
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.pdb
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.exe
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.pdb
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.xml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.xml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\ResolveAssemblyReference.cache
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Colores.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.g.cs
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.lref
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.baml
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.g.resources
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+D:\01_7_Seemestre\Proyecto Geoton\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.GenerateResource.Cache
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.config
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.exe
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Geoton.pdb
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.xml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.xml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\bin\Release\Interop.ActiveDs.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\ResolveAssemblyReference.cache
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Interop.ActiveDs.dll
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.ResolveComReference.cache
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Colores.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\About.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Bases.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Equipos_control.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\login.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Window1.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\winners.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\App.g.cs
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.lref
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Inicio.baml
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.g.resources
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.GenerateResource.Cache
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.exe
+D:\GEOTON\GEOTON_final_II\Geoton\Geoton\Geoton\obj\Release\Geoton.pdb
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.config
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Geoton.exe
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Geoton.pdb
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.xml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.xml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\de\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\en\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\es\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\fr\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\it\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\ja\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\ko\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Interop.ActiveDs.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\ResolveAssemblyReference.cache
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Interop.ActiveDs.dll
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.ResolveComReference.cache
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\About.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Bases.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Colores.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Equipos_control.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\login.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Window1.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\winners.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\App.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\About.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Bases.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Equipos_control.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Inicio.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\login.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Window1.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\winners.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\App.g.cs
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.lref
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Inicio.baml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.g.resources
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\ResGen.read.1.tlog
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\ResGen.write.1.tlog
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.exe
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.pdb
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.manifest
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Geoton.application
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.TrustInfo.xml
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.exe.manifest
+D:\GEOTON\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.application
+H:\Proyecto GEOTON Y MJ\GEOTON Y Maraton Juridico\GEOTON_2010\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.config
+H:\Proyecto GEOTON Y MJ\GEOTON Y Maraton Juridico\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Interop.ActiveDs.dll
+H:\Proyecto GEOTON Y MJ\GEOTON Y Maraton Juridico\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.ResolveComReference.cache
+H:\Proyecto GEOTON Y MJ\GEOTON Y Maraton Juridico\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.exe
+H:\Proyecto GEOTON Y MJ\GEOTON Y Maraton Juridico\GEOTON_2010\Geoton\Geoton\Geoton\obj\Release\Geoton.pdb
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.config
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Interop.ActiveDs.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.csproj.ResolveComReference.cache
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.exe
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.pdb
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Geoton.exe.manifest
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Geoton.application
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Geoton.exe
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Geoton.pdb
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.xml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\System.Windows.Interactivity.xml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\bin\Release\Interop.ActiveDs.dll
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\About.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Bases.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Colores.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Equipos_control.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\login.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Window1.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\winners.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\App.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\About.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Bases.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Equipos_control.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Inicio.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\login.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Window1.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\winners.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\App.g.cs
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.lref
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Inicio.baml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.g.resources
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\ResGen.read.1.tlog
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\ResGen.write.1.tlog
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.TrustInfo.xml
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.exe.manifest
+C:\Users\Edgar\Documents\Rosy Vazquez\Geoton\Geoton\Geoton\obj\Release\Geoton.application
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Geoton.exe.config
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Geoton.exe.manifest
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Geoton.application
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Geoton.exe
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Geoton.pdb
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\WPFToolkit.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Microsoft.Expression.Interactions.xml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\System.Windows.Interactivity.xml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\WPFToolkit.pdb
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\bin\Release\Interop.ActiveDs.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Interop.ActiveDs.dll
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.csproj.ResolveComReference.cache
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\About.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Bases.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Colores.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Equipos_control.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\login.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Window1.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\winners.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\App.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\About.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Bases.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Equipos_control.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Inicio.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\login.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Window1.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\winners.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\App.g.cs
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.cache
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton_MarkupCompile.lref
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Inicio.baml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.g.resources
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.Properties.Resources.resources
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.csproj.GenerateResource.Cache
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.TrustInfo.xml
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.exe.manifest
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.application
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.exe
+C:\Users\Edgar\Documents\Visual Studio 2012\Projects\Geoton\Geoton\obj\Release\Geoton.pdb

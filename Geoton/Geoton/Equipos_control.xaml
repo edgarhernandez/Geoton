@@ -1,0 +1,175 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="http://schemas.microsoft.com/wpf/2008/toolkit" xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions" x:Class="Geoton.Equipos_control"
+    Title="Control de Equipos" Height="453.75" Width="522.5" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="geoton.png" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+	<Window.Resources>
+		<Style x:Key="Arriba" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" RenderTransformOrigin="0.5,0.5" Source="Botones/Run.png" Stretch="Fill">
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform Angle="-89.827"/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Margin" TargetName="image" Value="-3.742,6.009,-3.742,-19.991"/>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="Reload" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" Source="Botones/reload.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="RenderTransform" TargetName="image">
+									<Setter.Value>
+										<TransformGroup>
+											<ScaleTransform/>
+											<SkewTransform/>
+											<RotateTransform Angle="53.638"/>
+											<TranslateTransform/>
+										</TransformGroup>
+									</Setter.Value>
+								</Setter>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="Boton_Agregar" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle x:Name="rectangle" Fill="#FFDC3429" RadiusX="7.033" RadiusY="7.033" Cursor="Hand" RenderTransformOrigin="0.5,0.5">
+								<Rectangle.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Rectangle.RenderTransform>
+							</Rectangle>
+							<ContentPresenter x:Name="contentPresenter" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="HorizontalAlignment" TargetName="contentPresenter" Value="Stretch"/>
+								<Setter Property="VerticalAlignment" TargetName="contentPresenter" Value="Stretch"/>
+								<Setter Property="Margin" TargetName="contentPresenter" Value="16.198,4.52,6.198,6.52"/>
+								<Setter Property="Fill" TargetName="rectangle" Value="#FFDE7C76"/>
+								<Setter Property="RenderTransform" TargetName="rectangle">
+									<Setter.Value>
+										<TransformGroup>
+											<ScaleTransform ScaleX="-1"/>
+											<SkewTransform/>
+											<RotateTransform/>
+											<TranslateTransform/>
+										</TransformGroup>
+									</Setter.Value>
+								</Setter>
+								<Setter Property="HorizontalAlignment" TargetName="rectangle" Value="Left"/>
+								<Setter Property="Width" TargetName="rectangle" Value="21"/>
+								<Setter Property="Margin" TargetName="rectangle" Value="0,0,8,0"/>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="Boton_Ususarios" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle x:Name="rectangle" Fill="#FFDC3429" RadiusX="7.033" RadiusY="7.033"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Fill" TargetName="rectangle" Value="#FFF26B63"/>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+    <Grid Width="503.434" Margin="1.533,19.504,1.533,1.504">
+    	<VisualStateManager.CustomVisualStateManager>
+    		<ic:ExtendedVisualStateManager/>
+    	</VisualStateManager.CustomVisualStateManager>
+    	<VisualStateManager.VisualStateGroups>
+    		<VisualStateGroup x:Name="VisualStateGroup"/>
+    	</VisualStateManager.VisualStateGroups>
+        <Rectangle Fill="#FFDC3429" Margin="-3.533,-7,-6,0" VerticalAlignment="Top" Height="32"/>
+        <Button Height="52.999" HorizontalAlignment="Left" Margin="164.434,0,0,2" x:Name="btn_reload" VerticalAlignment="Bottom" Width="59.566" Click="btn_reload_Click" TabIndex="5" Content="" Style="{DynamicResource Reload}"/>
+        <Button HorizontalAlignment="Left" Margin="372.434,141.071,0,0" x:Name="btn_eliminar" Width="118.448" Click="btn_eliminar_Click" ToolTip="Eliminar Equipo Seleccionado" TabIndex="3" Height="26.672" VerticalAlignment="Top" Content="Eliminar Selección" Style="{DynamicResource Boton_Ususarios}" Cursor="Hand" Foreground="White"/>
+        <Button Height="27" HorizontalAlignment="Left" Margin="328.434,49.249,0,0" x:Name="btn_agregar" VerticalAlignment="Top" Width="65" Click="btn_agregar_Click" ToolTip="Agregar Equipo" TabIndex="1" Content="Agregar" Style="{DynamicResource Boton_Ususarios}" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Foreground="White"/>
+        <TextBox Height="28" Margin="134,48.249,0,0" x:Name="txt_nombre_equipo" VerticalAlignment="Top" MaxLines="30" MaxHeight="30" KeyDown="txt_nombre_equipo_KeyDown" TabIndex="0" HorizontalAlignment="Left" Width="186.434" CharacterCasing="Upper" />
+        <Label Height="30" HorizontalAlignment="Left" Margin="11,46.249,0,0" x:Name="label1" VerticalAlignment="Top" Width="119" Content="Nombre del Equipo"/>
+        <Button Margin="0,171.743,12.552,0" x:Name="btn_elimina_todo" Click="btn_elimina_todo_Click" ToolTip="Elimina todos los Equipos" TabIndex="4" Content="Eliminar todo" VerticalAlignment="Top" Height="26.672" HorizontalAlignment="Right" Width="118.448" Style="{DynamicResource Boton_Ususarios}" Cursor="Hand" Foreground="White"/>
+        <Label Margin="96,125,0,144.999" x:Name="lbl_mensaje" Visibility="Hidden" HorizontalAlignment="Left" Width="119" Content="No hay Equipos"/>
+        <ListView x:Name="List1" Margin="11,0,0,56.999" ItemsSource="{Binding Table}" HorizontalAlignment="Left" Width="309.434" Height="262.494" VerticalAlignment="Bottom">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="N. Equipo" Width="60" DisplayMemberBinding="{Binding idEquipo}" />
+                    <GridViewColumn Header="Nombre" Width="129" DisplayMemberBinding="{Binding nombre}" />
+                    <GridViewColumn Header="Puntaje" DisplayMemberBinding="{Binding puntaje}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Margin="0,184.743,145,153.999" x:Name="btn_arriba" FlowDirection="LeftToRight" Click="btn_arriba_Click" ToolTip="Subir de Nivel" TabIndex="2" HorizontalAlignment="Right" Width="38" Content="" Style="{DynamicResource Arriba}" Cursor="Hand"/>
+        <Button Margin="234.434,0,164,22.999" x:Name="btn_reset" Click="btn_reset_Click" TabIndex="6" Height="30" VerticalAlignment="Bottom" Content="Reniciar Puntaje" Style="{DynamicResource Boton_Ususarios}" Cursor="Hand" Foreground="White"/>
+        <Image HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="106.013" Height="73" Source="Botones/LogoEstiloPlano con avion.png" Stretch="Fill"/>
+    	<Image HorizontalAlignment="Left" Margin="461.035,29,0,0" VerticalAlignment="Top" Width="42.399" Height="52.999" Source="Botones/LinceUVM.jpg" Stretch="Fill"/>
+    	<TextBlock Margin="150.467,-9,143,0" VerticalAlignment="Top" Height="32" FontSize="24" Text="Control de Equipos" TextWrapping="Wrap" Foreground="White"/>
+    	
+    </Grid>
+</Window>

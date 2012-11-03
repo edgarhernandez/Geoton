@@ -1,0 +1,260 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="http://schemas.microsoft.com/wpf/2008/toolkit" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="Geoton.Window1"
+    Title="Geoton" Height="598.106" Width="803.372" WindowStartupLocation="CenterScreen" VerticalAlignment="Bottom" Loaded="Window_Loaded" Background="Black" mc:Ignorable="d" WindowStyle="None" WindowState="Maximized" AllowsTransparency="True" Icon="geoton.png">    
+    
+    <Window.Resources>
+        <DataTemplate x:Key="BlueHeader" x:Name="BlueHeader">
+            <StackPanel Orientation="Horizontal" Margin="-5,-5,-5,-5" Width="120">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF223B84" Offset="1"/>
+                        <GradientStop Color="#FF57A0F4" Offset="0.5"/>
+                        <GradientStop Color="#FF4B94EC" Offset="0.5"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <TextBlock Margin="10,10,10,10" Text="{Binding}" VerticalAlignment="Center" Foreground="White"/>
+            </StackPanel>
+        </DataTemplate>
+    	<Style x:Key="btn_Respuesta" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True"/>
+    						<Trigger Property="IsPressed" Value="True"/>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Style x:Key="No_equisroja" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						<Image x:Name="image" Source="Botones/no_juez.png" Stretch="Fill"/>
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True">
+    							<Setter Property="Margin" TargetName="image" Value="-14.425,-13.333"/>
+    						</Trigger>
+    						<Trigger Property="IsPressed" Value="True"/>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Style x:Key="si_palomaverde" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						<Image x:Name="image" Source="Botones/si_juez.png" Stretch="Fill"/>
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True">
+    							<Setter Property="Margin" TargetName="image" Value="-16.888,-16.83"/>
+    						</Trigger>
+    						<Trigger Property="IsPressed" Value="True"/>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Style x:Key="respuesta" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True"/>
+    						<Trigger Property="IsPressed" Value="True"/>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Color x:Key="Azulusable">#FF034495</Color>
+    	<Style x:Key="Ramarilla" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						<Image Source="Botones/btotn R.png" Stretch="Fill"/>
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True"/>
+    						<Trigger Property="IsPressed" Value="True"/>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Style x:Key="boronAmarilloResp" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						<Image x:Name="image" Source="Botones/btotn R.png" Stretch="Fill"/>
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True">
+    							<Setter Property="Margin" TargetName="image" Value="-11.594,-11.554"/>
+    						</Trigger>
+    						<Trigger Property="IsPressed" Value="True">
+    							<Setter Property="OpacityMask" TargetName="image" Value="#FF350B0B"/>
+    							<Setter Property="Margin" TargetName="image" Value="0"/>
+    						</Trigger>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Style x:Key="boronsalir_blco" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						<Image Source="Botones/btonblancosalir.png" Stretch="Fill"/>
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True"/>
+    						<Trigger Property="IsPressed" Value="True"/>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Style x:Key="Salir" TargetType="{x:Type Button}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type Button}">
+    					<Grid>
+    						<Rectangle x:Name="rectangle" Fill="#FF0A0A0A" Stroke="Black" RadiusX="9.236" RadiusY="9.236"/>
+    						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsFocused" Value="True"/>
+    						<Trigger Property="IsDefaulted" Value="True"/>
+    						<Trigger Property="IsMouseOver" Value="True">
+    							<Setter Property="Fill" TargetName="rectangle" Value="Black"/>
+    							<Setter Property="Stroke" TargetName="rectangle" Value="White"/>
+    							<Setter Property="StrokeThickness" TargetName="rectangle" Value="3"/>
+    						</Trigger>
+    						<Trigger Property="IsPressed" Value="True"/>
+    						<Trigger Property="IsEnabled" Value="False"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    </Window.Resources>
+
+    <Grid Margin="2.241,10.414,1.131,-12.308" Background="#FFDEDEDE">
+    	<Grid.ColumnDefinitions>
+    		<ColumnDefinition/>
+    	</Grid.ColumnDefinitions>
+    	<Rectangle Fill="#FF0A0A0A" Stroke="Black" RadiusX="24.115" RadiusY="24.115" Margin="309.667,0,166.287,79.193" VerticalAlignment="Bottom" Height="79.348"/>
+    	<Rectangle Fill="White" StrokeThickness="7" Margin="0,42.309,6.908,18" HorizontalAlignment="Right" Width="141.461"/>
+    	<Rectangle Fill="White" StrokeThickness="7" RadiusX="18.608" RadiusY="18.608" Margin="13.479,0,227.236,173.862" VerticalAlignment="Bottom" Height="47.794"/>
+    	<Label Height="54.302" x:Name="lbl_respuesta" FontSize="26.667" Content="RESPUESTA" Margin="17.597,0,250.11,173.862" VerticalAlignment="Bottom"/>
+        <Label Height="26.003" Margin="18.761,0,0,22.156" x:Name="lbl_random" VerticalAlignment="Bottom" Content="Label" HorizontalAlignment="Left" Width="90.014"/>
+        <Grid x:Name="grid_jueces" Height="151.706" VerticalAlignment="Bottom" Margin="326.244,0,158.45,22.156">
+        	<Grid.ColumnDefinitions>
+        		<ColumnDefinition Width="0*"/>
+        		<ColumnDefinition/>
+        	</Grid.ColumnDefinitions>
+        	<Button x:Name="btn_si" Click="btn_si_Click" IsCancel="False" Focusable="True" ClickMode="Release" AllowDrop="False" VerticalAlignment="Bottom" Cursor="Hand" Style="{DynamicResource si_palomaverde}" Content="" RenderTransformOrigin="0.5,0.5" Margin="32.009,0,0,64.678" Height="61.905" Grid.Column="1" HorizontalAlignment="Left" Width="62.118">
+        		<Button.RenderTransform>
+        			<TransformGroup>
+        				<ScaleTransform/>
+        				<SkewTransform/>
+        				<RotateTransform Angle="-1.1"/>
+        				<TranslateTransform/>
+        			</TransformGroup>
+        		</Button.RenderTransform>
+        	</Button>
+        	<Button x:Name="btn_no" Click="btn_no_Click" VerticalAlignment="Bottom" Cursor="Hand" Style="{DynamicResource No_equisroja}" Content="" Margin="0,0,56.696,66.517" Height="54.094" Grid.Column="1" HorizontalAlignment="Right" Width="58.522"/>
+        	<Label FontSize="59" MaxWidth="Infinity" x:Name="label4" Content="CALIFICAR" Margin="-5.216,0,16.981,-6.617" Grid.ColumnSpan="2" VerticalAlignment="Bottom" Height="84.456"/>
+        </Grid>
+        <Grid Height="67.163" x:Name="grid_titulo" VerticalAlignment="Top" Margin="0,-23.07,29.531,0"/>
+        <Rectangle StrokeThickness="2" RadiusX="32.066" RadiusY="32.066" Margin="0,118.046,-42.526,0" VerticalAlignment="Top" Height="49.382" Fill="#FFBD0101" HorizontalAlignment="Right" Width="192.741"/>
+    	<Rectangle Fill="#FFBD0101" StrokeThickness="7" Height="63.809" VerticalAlignment="Top" Margin="0,0,6.908,0"/>
+    	<Label x:Name="label1" FontSize="24" Height="44.84" VerticalAlignment="Top" Content="RONDA :" RenderTransformOrigin="0.475,-0.052" d:LayoutOverrides="VerticalAlignment" Foreground="White" Margin="17.597,9.541,0,0" HorizontalAlignment="Left" Width="114.439">
+    		<Label.Background>
+    			<SolidColorBrush/>
+    		</Label.Background>
+    	</Label>
+    	<Label FontSize="66.667" x:Name="lbl_ronda" Height="90.252" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Foreground="White" Margin="116.909,-28.461,0,0" Content="0" HorizontalAlignment="Left" Width="Auto"/>
+    	<ListView ItemsSource="{Binding Table}" x:Name="List1" Height="133.416" Width="264.32" Background="#FFBD0101" HorizontalAlignment="Left" Margin="17.597,0,0,24.159" VerticalAlignment="Bottom" BorderBrush="White" Foreground="White">
+    		<ListView.View>
+    			<GridView >
+    				<GridViewColumn  DisplayMemberBinding ="{Binding idEquipo}" Width="60" Header="N. Equipo"/>
+    				<GridViewColumn  DisplayMemberBinding="{Binding nombre}" Width="129" Header="Nombre"/>
+    				<GridViewColumn  DisplayMemberBinding="{Binding puntaje}" Header="Puntaje" />
+    			</GridView>
+    		</ListView.View>
+    	</ListView>
+    	<Rectangle Fill="#FF0A0A0A" Stroke="Black" RadiusX="24.115" RadiusY="24.115" Margin="256.489,0,124.285,0" VerticalAlignment="Top" Height="62.093"/>
+    	<Label FontSize="26.667" Height="47.157" MaxWidth="Infinity" x:Name="label3" Width="115.192" Content="TIEMPO" Foreground="White" HorizontalAlignment="Right" Margin="0,118.046,15.416,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Grid Margin="0,121.691,-1.479,288.556" x:Name="grid_tiempo" HorizontalAlignment="Right" Width="168.303">
+            <Label FontSize="133.333" Margin="12.44,24.761,0,0" MaxWidth="Infinity" x:Name="lbl_tiempo" Height="165.542" VerticalAlignment="Top" HorizontalAlignment="Left" Width="156.148" Content="15"/>
+        </Grid>
+    	<Button x:Name="btn_respuesta" Click="btn_respuesta_Click" Cursor="Hand" Style="{DynamicResource boronAmarilloResp}" Content="" HorizontalAlignment="Right" Margin="0,0,158.45,176.64" Width="56.09" RenderTransformOrigin="0.512,1.41" VerticalAlignment="Bottom" Height="54.302"/>
+    	<Rectangle Fill="#FF0A0A0A" StrokeThickness="7" RadiusX="18.608" RadiusY="18.608" Margin="0,65.809,6.908,0" VerticalAlignment="Top" Height="42.302"/>
+    	<Label Height="61.447" x:Name="lbl_pregunta" FontSize="26.667" Content="PREGUNTA ¿?" Foreground="White" Margin="8.234,62.878,71.746,0" VerticalAlignment="Top"/>
+    	<Image Margin="26.758,121.691,174.284,247.902" Opacity="0.5" Source="Resources/mapamundial.png" Stretch="Fill"/>
+    	<MediaElement x:Name="me_bandera" Stretch="Fill" SnapsToDevicePixels="False" LoadedBehavior="Play" StretchDirection="DownOnly" Margin="8.234,121.691,227.236,225.656" />
+    	<Button HorizontalAlignment="Right" Margin="0,5.715,17.402,0" Style="{DynamicResource Salir}" VerticalAlignment="Top" Width="61.293" Height="33.311" Content="Salir" Click="btn_salir" Foreground="White" Cursor="Hand" IsDefault="True">
+    		<Button.Background>
+    			<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+    				<GradientStop Color="#FFF3F3F3" Offset="0"/>
+    				<GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+    				<GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+    				<GradientStop Color="White" Offset="1"/>
+    			</LinearGradientBrush>
+    		</Button.Background>
+    	</Button>
+    	<Image Margin="0,0,3.306,17.656" Source="Botones\LogoEstiloPlano con avion.png" Stretch="Fill" HorizontalAlignment="Right" Width="141.621" VerticalAlignment="Bottom" Height="95.181" d:LayoutOverrides="VerticalAlignment"/>
+    	<Label FontSize="32" x:Name="lbl_equipo" MaxWidth="Infinity" Height="52.547" VerticalAlignment="Top" Content="EQUIPO" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" Foreground="White" Margin="360.99,-2.738,158.45,0"/>
+    	<Label FontSize="24" x:Name="label2" Height="44.84" VerticalAlignment="Top" Content="EQUIPO :" Foreground="White" Margin="255.016,9.541,0,0" d:LayoutOverrides="VerticalAlignment" HorizontalAlignment="Left" Width="158.038"/>
+    </Grid>
+
+</Window>
+
+
